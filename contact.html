@@ -24,5 +24,21 @@
         </nav>
     <!-- end repeat content -->
      <h2>Contact</h2>
+     <form action="contactform.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="why">Reason for Contacting:</label><br>
+        <select id="why" name="why" required>
+            <option value="">--Please choose an option--</option>
+            <option value="hi">Saying "Hi"</option>
+            <option value="contractor">Looking for a contractor</option>
+            <option value="interview">Interested in an Interview</option>
+        </select><br>
+        <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Leave your message here:" required></textarea><br>
+        <br>
+        <button type="submit">Submit</button>
+     </form>
 </body>
 </html>
