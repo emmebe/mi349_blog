@@ -1,4 +1,5 @@
-
+/* base styles */
+/* 1 */
 header {
     background-color: #789379;
     display: flex;
@@ -6,8 +7,10 @@ header {
     justify-content: space-between; /* optional: spreads h1 and nav */
     padding: 10px 0;
     margin: 15px 5px;
-    border-radius: 10px;;
+    border-radius: 10px;
 }
+
+/* 2 */
 body {
     background-color: #c1b8b5;
     color: #2d2d2b;
@@ -16,12 +19,14 @@ body {
     padding: 0px;
 }
 
+/* 3 */
 nav {
     padding: 10px;
-    margin: 10px ;
+    margin: 10px;
     text-align: center;
 }
 
+/* 4 */
 section {
     background-color: rgb(229, 228, 226);
     width: 80%;
@@ -30,35 +35,41 @@ section {
     border-radius: 10px;
 }
 
-h1 {
-    color: #2d2d2e ;
+/* 5, 6, 7*/
+h1, h2, h3 {
+    color: #2d2d2e;
     margin: 10px;
     padding: 10px;
     text-align: left;
 }
 
+/* 8 */
 p {
-    color: #2d2d2e
+    color: #2d2d2e;
 }
 
+/* 9 */
 img {
    margin: 5px;
 }
 
-table, th, td {
+/* 10, 11, 12 */
+table {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 5px;
     text-align: left;
 }
 
-/* tester changing alternative h1
-h1.alt {
-    font-size: 1.5em;
-    color: beige ;
-    background: black ;
-    margin: 10px;
-    padding: 10px;
-    text-align: left;
-    font-family: Arial, sans-serif;
-} */
+/* 13 */
+thead {
+    background-color: #789379;
+    color: white;
+}
+
+/* class and ids */
+
+/* 14 */
+#nav {
+    font-family: 'Brush Script MT', cursive
+}
