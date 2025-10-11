@@ -1,17 +1,64 @@
 
-
-/* elements */
-
-img {
-   margin: 5px;
+header {
+    background-color: #789379;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* optional: spreads h1 and nav */
+    padding: 10px 0;
+    margin: 15px 5px;
+    border-radius: 10px;;
+}
+body {
+    background-color: #c1b8b5;
+    color: #2d2d2b;
+    font-family: tahoma, sans-serif;
+    margin: 0;
+    padding: 0px;
 }
 
-/* text */
+nav {
+    padding: 10px;
+    margin: 10px ;
+    text-align: center;
+}
 
-h1, h2, h3, h4, h5, h6 {
-    color: #2d2d2e
+section {
+    background-color: rgb(229, 228, 226);
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #2d2d2e ;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
 }
 
 p {
     color: #2d2d2e
 }
+
+img {
+   margin: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+}
+
+/* tester changing alternative h1
+h1.alt {
+    font-size: 1.5em;
+    color: beige ;
+    background: black ;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+} */
