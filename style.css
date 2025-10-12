@@ -19,14 +19,24 @@ body {
     padding: 0px;
 }
 
-/* 3 */
-nav {
+/* 3, 4 */
+nav a, nav a:visited {
     padding: 10px;
     margin: 10px;
+    color: #201e1f;
+    font-weight: bold;
     text-align: center;
+    text-decoration: none;
 }
 
-/* 4 */
+/* 5 */
+nav a:hover {
+    background-color: #536a54;
+    color: white;
+    border-radius: 5px;
+}
+
+/* 6 */
 section {
     background-color: rgb(229, 228, 226);
     width: 80%;
@@ -35,7 +45,7 @@ section {
     border-radius: 10px;
 }
 
-/* 5, 6, 7*/
+/* 7, 8, 9*/
 h1, h2, h3 {
     color: #2d2d2e;
     margin: 10px;
@@ -43,17 +53,17 @@ h1, h2, h3 {
     text-align: left;
 }
 
-/* 8 */
+/* 10 */
 p {
     color: #2d2d2e;
 }
 
-/* 9 */
+/* 11 */
 img {
    margin: 5px;
 }
 
-/* 10 */
+/* 12 */
 table {
     border: 1px solid black;
     border-collapse: collapse;
@@ -61,21 +71,20 @@ table {
     text-align: left;
 }
 
-/* 11 */
+/* 13 */
 thead {
     background-color: #789379;
     color: white;
 }
 
-/* 12, 13 */
+/* 14, 15 */
 th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 5px;
 }
-}
 
-/* 14, 15, 16 */
+/* 16, 17, 18 */
 
 form, label, input {
     margin: 0 auto;
@@ -84,22 +93,46 @@ form, label, input {
     margin-bottom: 10px
 }
 
-/* 17, 18 */
+/* 19, 20 */
 select, textarea {
     margin-bottom: 10px;
 }
 
-/* special */
-
-/* 19 */
-h1 {
-    font-family: 'Brush Script MT', cursive;
-}
-
 /* ids and classes */
 
+/* 21 */
 .social{
     text-align: left;
     margin: 0 auto;
     font: 20px;
+}
+
+/* 22 */ 
+#navhead a {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 40px;
+    margin-left: 15px;
+    color: #201e1f;
+    text-decoration: none;
+}
+
+/* 23 */
+.titleimg {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+/* 24*/
+
+.contentwrap {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+/* 25 */
+.citations {
+    clear: both;
+    font-style: italic
 }
