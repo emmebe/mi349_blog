@@ -136,3 +136,7 @@ select, textarea {
     clear: both;
     font-style: italic
 }
+
+.clearfloats {
+    clear: both;
+}
