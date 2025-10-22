@@ -37,4 +37,6 @@ fix nav using: "https://www.youtube.com/embed/mtXM87QMSi8?si=qBGeWdVN-bD-RwfW" <
 <script async src="//www.instagram.com/embed.js"></script>
 </details>
 
+collaps nav bar to a hamburger menu and make the hamburger menu sticky on scroll - hover/click opens it
+
 create font using https://www.youtube.com/watch?v=N8rEzpeNCGk&t=56s 
