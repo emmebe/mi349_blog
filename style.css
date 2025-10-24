@@ -1,7 +1,14 @@
 /* base styles */
 /* 1 */
+:root {
+    --nav-bg: #789379;
+    --text-col: #201e1f;
+    --section-bg: #e5e4e2;
+    --main-bg: #c1b8b5;
+}
+
 header {
-    background-color: #789379;
+    background-color: var(--nav-bg);
     display: flex;
     align-items: center;
     justify-content: space-between; /* optional: spreads h1 and nav */
@@ -14,8 +21,8 @@ header {
 
 /* 2 */
 body {
-    background-color: #c1b8b5;
-    color: #2d2d2b;
+    background-color: var(--main-bg);
+    color: var(--text-col);
     font-family: tahoma, sans-serif;
     margin: 0;
     padding: 0px;
@@ -62,7 +69,10 @@ p {
 
 /* 11 */
 img {
-   margin: 5px;
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+    display: block;
 }
 
 /* 12 */
@@ -141,4 +151,71 @@ select, textarea {
 
 .clearfloats {
     clear: both;
+}
+
+/* media queries */
+
+@media screen and (max-width: 616px) {
+    header, nav a, #navhead a {
+        margin: 0;
+        border-radius: 0;
+        width: 100%;
+    }
+    section {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+    img {
+        max-width: 50%;
+        height: auto;
+    }
+    nav {
+        margin: 0 auto;
+    }
+    .titleimg {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    h3 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 617px) and (max-width: 768px) {
+    body {
+        background-color: var(--nav-bg);
+    }
+    section {
+        background-color: var(--text-col);
+    }
+    p, h1, h2, h3, h4, h5, h6 {
+        color: var(--main-bg);
+    }
+    header {
+        background-color: var(--section-bg);
+    }
+    img {
+        max-width: 50%;
+        height: auto;
+    }
+    .contentwrap {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .social {
+        text-align: center;
+    }
+    nav a {
+        display: block;
+        margin: 5px auto;
+    }
+    form{
+        color: var(--main-bg);
+    }
+    ul, li{
+        color: var(--main-bg);
+    }
 }
